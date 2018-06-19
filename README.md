@@ -1,5 +1,5 @@
 # fixURLSearchParams.js
-URLSearchParams() does not work on mobile for iOS, this is an example of a workaround.
+URLSearchParams() [https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams] does not work on mobile for iOS, this is an example of a workaround.
 ```js
 if ('URLSearchParams' in window) {
   	var urlParams = new URLSearchParams(window.location.search);
